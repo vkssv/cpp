@@ -25,6 +25,7 @@ int main() {
  
   // Range-based for loop
   vector<int> myVector = {1, 2, 3, 4, 5};
+  
   for (int element : myVector) {
     cout << "Range-based for loop: The value of element is: " << element << endl;
   }

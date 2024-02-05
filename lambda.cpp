@@ -36,6 +36,11 @@ int main(void) {
     int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
     int f = accumulate(arr, arr +10, 1, [](int i, int j) { return i*j; });
+    cout << "factorial " << f << endl;
+
+    auto square = [](int i) { return i*i; };
+
+    cout << "square " << square(5) << endl;
 
     
 
